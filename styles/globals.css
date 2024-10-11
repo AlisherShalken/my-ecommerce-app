@@ -1,0 +1,21 @@
+/* styles/globals.css */
+
+/* Подключаем базовые стили Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Применяем белый фон и темный текст по умолчанию */
+body {
+  @apply bg-white text-gray-800; /* Белый фон и темный текст */
+}
+
+/* Заголовки текста */
+h1, h2, h3, h4, h5, h6 {
+  @apply text-gray-900; /* Темный цвет для заголовков */
+}
+
+/* Стили ссылок и кнопок фильтра */
+a, button {
+  @apply text-red-500 hover:text-red-700; /* Красный текст и ссылки */
+}

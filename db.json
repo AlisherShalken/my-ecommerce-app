@@ -1,0 +1,144 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Смартфон",
+      "price": 50000,
+      "category": "Электроника",
+      "image": "https://opis-cdn.tinkoffjournal.ru/mercury/main-guide-choose-yr-android.sjamht.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Ноутбук",
+      "price": 150000,
+      "category": "Электроника",
+      "image": "https://ir-3.ozone.ru/s3/multimedia-l/c1000/6152829057.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Телевизор",
+      "price": 120000,
+      "category": "Электроника",
+      "image": "https://www.maunfeld.ru/upload/iblock/3ec/nmw1ax22lm6py37vhed97em7n4pzenpf/tele.png"
+    },
+    {
+      "id": 4,
+      "name": "Книга по программированию",
+      "price": 2000,
+      "category": "Книги",
+      "image": "https://skillbox.ru/upload/setka_images/10581111082021_accf102caaa970ce65d217b9ae9a8e9a57caa67c.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Роман",
+      "price": 1500,
+      "category": "Книги",
+      "image": "https://0d314c86-f76b-45cc-874e-45816116a667.selcdn.net/8eb84d3c-8d8a-4e6f-9501-7b9755e03da4.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Футболка",
+      "price": 3000,
+      "category": "Одежда",
+      "image": "https://vse-footbolki.ru/image/catalog/vsm/0/0/220/220451/previews/people_5_manshort_front_white_700.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Джинсы",
+      "price": 5000,
+      "category": "Одежда",
+      "image": "https://men-mag.com/wp-content/uploads/2022/06/modnye-muzhskie-jinsy-2022-e1654630842193.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Куртка",
+      "price": 10000,
+      "category": "Одежда",
+      "image": "https://dryclean.ru/upload/medialibrary/928/ajfqrfdmby7r2f6kp2un6hnikjc1aqrb/%D0%BA%D0%BE%D0%B6%D0%B0%D0%BD%D0%B0%D1%8F%20%D0%BA%D1%83%D1%80%D1%82%D0%BA%D0%B0.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Шкаф",
+      "price": 30000,
+      "category": "Дом",
+      "image": "https://www.anrex.by/upload/uf/c73/p89hdmiuqk798h1pcz99c6h1ze619lqe/1286_846_min.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Стол",
+      "price": 15000,
+      "category": "Дом",
+      "image": "https://gallerywest.kz/upload/iblock/273/uap708clnlwz1fo3t8qhxhzuyrqbhoef/M4001019_2.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Стул",
+      "price": 5000,
+      "category": "Дом",
+      "image": "https://andriya-mebel.by/image/cache/catalog/stoly-i-stulya/9/794146802-nabor-stulev-moli-2-shtuki-650x488.jpeg"
+    },
+    {
+      "id": 12,
+      "name": "Чайник",
+      "price": 2000,
+      "category": "Аксессуары",
+      "image": "https://shop-cdn1-2.vigbo.tech/shops/54272/products/22073993/images/3-5b30de947b447cdb8ee9d66ebd16e5df.JPG"
+    },
+    {
+      "id": 13,
+      "name": "Рюкзак",
+      "price": 4000,
+      "category": "Аксессуары",
+      "image": "https://img.freepik.com/premium-photo/blue-backpack-school-supplies-book-background-blackboard_656538-3207.jpg"
+    },
+    {
+      "id": 14,
+      "name": "Очки",
+      "price": 3000,
+      "category": "Аксессуары",
+      "image": "https://halvaoptik.by/uploads/product/1200/1271/gotochki-2-Ralph-RA0468-C1-chernyy_2021-10-08_16-22-27.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Планшет",
+      "price": 80000,
+      "category": "Электроника",
+      "image": "https://main-cdn.sbermegamarket.ru/big2/hlr-system/-17/473/685/562/320/38/600005610309b0.jpeg"
+    },
+    {
+      "id": 16,
+      "name": "Наушники",
+      "price": 10000,
+      "category": "Электроника",
+      "image": "https://tsmart.kz/3729-large_default/%D0%B1%D0%B5%D1%81%D0%BF%D1%80%D0%BE%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B5-%D0%BD%D0%B0%D1%83%D1%88%D0%BD%D0%B8%D0%BA%D0%B8-apple-airpods-max-white.jpg"
+    },
+    {
+      "id": 17,
+      "name": "Мышь",
+      "price": 2000,
+      "category": "Электроника",
+      "image": "https://royal-computers.ru/upload/thumbs/catalog/source/mouse-1_5e3abe.png"
+    },
+    {
+      "id": 18,
+      "name": "Клавиатура",
+      "price": 3000,
+      "category": "Электроника",
+      "image": "https://defender.ru/public/o/products/8191/076abee9.webp"
+    },
+    {
+      "id": 19,
+      "name": "Пиджак",
+      "price": 8000,
+      "category": "Одежда",
+      "image": "https://marc-o-polo.ru/upload/iblock/b39/w8t5fzdu6sgitpct1w13vhz5xjomi1ne.jpeg"
+    },
+    {
+      "id": 20,
+      "name": "Шапка",
+      "price": 1000,
+      "category": "Одежда",
+      "image": "https://www.ushatava.com/upload/resize_cache/iblock/4ef/1110_1336_2/pg5nyl7irlc1oa3xro1bej3z0t3jfdc8.jpg"
+    }
+  ]
+}
