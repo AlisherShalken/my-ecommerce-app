@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Catalog from '../components/Catalog';
 import CartSidebar from '../components/CartSidebar';
 
@@ -15,27 +15,6 @@ export interface Product {
 const Home = () => {
   const [cart, setCart] = useState<Product[]>([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
-
-  // Загружаем данные из localStorage при первой загрузке
-  useEffect(() => {
-    const savedCart = localStorage.getItem('cart');
-    if (savedCart) {
-      try {
-        setCart(JSON.parse(savedCart));
-      } catch (error) {
-        console.error('Ошибка при разборе данных из localStorage:', error);
-      }
-    }
-  }, []);
-
-  // Сохраняем данные в localStorage при каждом изменении корзины
-  useEffect(() => {
-    if (cart.length > 0) {
-      localStorage.setItem('cart', JSON.stringify(cart));
-    } else {
-      localStorage.removeItem('cart'); // Удаляем данные, если корзина пустая
-    }
-  }, [cart]);
 
   const handleAddToCart = (product: Product) => {
     const existingProduct = cart.find((item) => item.id === product.id);
@@ -56,7 +35,7 @@ const Home = () => {
 
   const handleQuantityChange = (productId: number, newQuantity: number) => {
     if (newQuantity <= 0) {
-      handleRemoveFromCart(productId);
+      handleRemoveFromCart(productId); // Удаляем товар, если количество становится нулевым или отрицательным
     } else {
       setCart(
         cart.map((item) => {
@@ -92,6 +71,11 @@ const Home = () => {
           isOpen={isCartOpen}
         />
       </main>
+      
+      {/* Добавляем футер */}
+      <footer className="bg-white text-black text-center py-4 mt-8">
+        <p>Made by Alisher Shalken :)</p>
+      </footer>
     </div>
   );
 };
